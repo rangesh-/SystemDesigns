@@ -1,0 +1,9 @@
+1. Delta Sync : R-Sync algorithm efficiently computes which parts of source file match some part of existing destination file and it prevents the matching parts to be sent over the network ,instead pass only the modified parts to re-construct the destination file to be same as source file
+
+2. Differential Synchronization : Efficient technique to keep documents synchronized in real time /asynchronous fashion . Google Doc uses Differential Synchronization technique
+
+Tools/Libraries 
+
+1. LibrSync - Deltasync  - https://github.com/librsync/librsync
+
+2. Nodejs Library for DiffSync - https://janmonschke.com/projects/diffsync.html
